@@ -8,12 +8,12 @@ export function Header() {
                 </div>
 
                 <div className="text-darkScale-dark40">
-                    <ul className="flex gap-12">
-                        <li className="p-2 hover:text-brand-brandColor">Início</li>
-                        <li className="p-2 hover:text-brand-brandColor">Sobre mim</li>
-                        <li className="p-2 hover:text-brand-brandColor">Projetos</li>
-                        <li className="p-2 hover:text-brand-brandColor">Serviços</li>
-                        <li className="p-2 hover:text-brand-brandColor">Habilidade</li>
+                    <ul className="flex gap-12 ">
+                        <li className="p-2 hover:text-brand-brandColor cursor-pointer">Início</li>
+                        <li className="p-2 hover:text-brand-brandColor cursor-pointer">Sobre mim</li>
+                        <li className="p-2 hover:text-brand-brandColor cursor-pointer">Projetos</li>
+                        <li className="p-2 hover:text-brand-brandColor cursor-pointer">Serviços</li>
+                        <li className="p-2 hover:text-brand-brandColor cursor-pointer">Habilidade</li>
                     </ul>
                 </div>
             </header>
