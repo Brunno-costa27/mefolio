@@ -1,4 +1,5 @@
 import './App.css'
+import { AboutMe } from './components/AboutMe'
 import { Header } from './components/Header'
 import { Main } from './components/Main'
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <AboutMe />
     </>
   )
 }
